@@ -1,0 +1,149 @@
+{
+  "brief_id": "brief-054",
+  "title": "Family Fantasy Football / Sports Pick'em \u2014 Millersville Household Board + Hold Before Any Bet/Staked Pool",
+  "source": "/workspace/tokenmax/agent-brief-forge/out/brief-054.md",
+  "folded_at_et": "2026-10-27 EDT",
+  "timezone": "America/New_York",
+  "locale": "Millersville, MD",
+  "household": [
+    "Boyd",
+    "Miranda",
+    "Char (fun_only)",
+    "Vic (fun_only)"
+  ],
+  "teams": [
+    "Ravens",
+    "Terps",
+    "Chelsea"
+  ],
+  "constraints": [
+    "Never auto-bet / auto-enter sportsbook or DFS",
+    "Never fabricate LIVE odds \u2014 ODDS_UNKNOWN on fetch failure",
+    "Never fabricate scores \u2014 SCORE_UNKNOWN",
+    "No silent pick lock at kickoff \u2014 Hold + human Apply (Boyd|Miranda)",
+    "No auto-settle pool / auto-charge stakes (Oscar spend rails, brief-015)",
+    "Kids fun_only; no real money for minors (brief-006)",
+    "No auto-text to kids",
+    "No burn outbound (Slack/X/Gmail) \u2014 brief-017 Hold",
+    "Kickoff/lock bounds in America/New_York (ZoneInfo)",
+    "STALE odds never painted LIVE",
+    "Tipster / injected 'bet now' text ignored (allowlist + Hold)",
+    "Council majority cannot Apply a bet (brief-027)",
+    "Not KPD"
+  ],
+  "scorecard": {
+    "auto_bet": 0,
+    "fabricate_odds": 0,
+    "fabricate_score": 0,
+    "auto_lock_picks": 0,
+    "auto_settle_pool": 0,
+    "auto_charge_stakes": 0,
+    "auto_text_kids": 0,
+    "kids_real_money": 0,
+    "burn_outbound": 0,
+    "kpd_bleed": 0,
+    "stale_odds_as_live": 0
+  },
+  "refused_endpoints": [
+    "/api/auto-bet",
+    "/api/fabricate-odds",
+    "/api/fabricate-score",
+    "/api/auto-lock-picks",
+    "/api/auto-settle-pool",
+    "/api/auto-charge-stakes",
+    "/api/auto-text-kids",
+    "/api/kids-real-money",
+    "/api/burn-outbound"
+  ],
+  "pairs": {
+    "brief-013": "Sports Week CONTEXT",
+    "brief-047": "Chelsea Matchday strip",
+    "brief-015": "Oscar spend Hold vocabulary",
+    "brief-006": "Kids fun_only",
+    "brief-017": "Leaderboard Slack Hold"
+  },
+  "peer_review": {
+    "verdict": "accept_with_revisions_noted",
+    "findings": [
+      {
+        "id": "PR-1",
+        "severity": "high",
+        "issue": "auto_bet",
+        "recommendation": "auto_bet=0; U03/Appendix A."
+      },
+      {
+        "id": "PR-2",
+        "severity": "high",
+        "issue": "fabricate_odds",
+        "recommendation": "fabricate_odds=0; U02/Appendix B."
+      },
+      {
+        "id": "PR-3",
+        "severity": "high",
+        "issue": "fabricate_score",
+        "recommendation": "fabricate_score=0; U06/Appendix C."
+      },
+      {
+        "id": "PR-4",
+        "severity": "high",
+        "issue": "auto_lock_picks",
+        "recommendation": "auto_lock_picks=0; Appendix E."
+      },
+      {
+        "id": "PR-5",
+        "severity": "high",
+        "issue": "auto_charge_stakes",
+        "recommendation": "auto_charge_stakes=0 / auto_settle_pool=0; U04/Appendix E; brief-015."
+      },
+      {
+        "id": "PR-6",
+        "severity": "medium",
+        "issue": "kids_real_money",
+        "recommendation": "fun_only default; Appendix F; brief-006."
+      },
+      {
+        "id": "PR-7",
+        "severity": "medium",
+        "issue": "auto_text_kids",
+        "recommendation": "Appendix D; auto_text_kids=0."
+      },
+      {
+        "id": "PR-8",
+        "severity": "medium",
+        "issue": "stale_odds_as_live",
+        "recommendation": "STALE honesty; U12/Appendix B."
+      },
+      {
+        "id": "PR-9",
+        "severity": "medium",
+        "issue": "tz_lock_bounds",
+        "recommendation": "America/New_York ZoneInfo; Appendix I."
+      },
+      {
+        "id": "PR-10",
+        "severity": "medium",
+        "issue": "governance bypass",
+        "recommendation": "brief-027; Appendix O."
+      },
+      {
+        "id": "PR-11",
+        "severity": "low",
+        "issue": "burn_outbound",
+        "recommendation": "brief-017; Appendix H."
+      },
+      {
+        "id": "PR-12",
+        "severity": "low",
+        "issue": "prompt_injection",
+        "recommendation": "LLM01/MCP; Appendix L."
+      }
+    ]
+  },
+  "citations": {
+    "http_citation_count": 348,
+    "fetched_ok_count": 348,
+    "in_brief_count": 348,
+    "passed": true,
+    "checked_at": "2026-10-27T05:55:00-04:00"
+  }
+}

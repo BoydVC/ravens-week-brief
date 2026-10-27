@@ -1,0 +1,17 @@
+{
+  "app": "ravens-week-brief",
+  "title": "Ravens Week-Of Brief",
+  "port": 4338,
+  "bind": "127.0.0.1:4338",
+  "timezone": "America/New_York",
+  "fetched_at_et": "2026-10-26 21:53:52 EDT",
+  "week": 8,
+  "season": 2026,
+  "mode_mix": "LIVE+SYNTHETIC",
+  "jim_lane": 3,
+  "notes": [
+    "Saturday/Sunday household sports card desk",
+    "Never invent injury statuses as LIVE",
+    "Sunday 107 fifth-pick is checklist UI only — no auto-post"
+  ]
+}

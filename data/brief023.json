@@ -1,0 +1,140 @@
+{
+  "brief_id": "brief-023",
+  "title": "Youth Sports Carpool Apply/Notify Encoding",
+  "source": "agent-brief-forge/out/brief-023.md + peer-review-023.json + citations-023.json",
+  "parent_briefs": [
+    "brief-001",
+    "brief-008",
+    "brief-013",
+    "brief-014",
+    "brief-017",
+    "brief-018"
+  ],
+  "paired_with": {
+    "brief-013": "Sports Week Desk / kids conflict flags (household_week) — advisory only; does not auto-create TeamSnap assignments",
+    "brief-014": "School Email Digest — Pam owns school / Boyd owns sports handoff chips"
+  },
+  "peer_review": {
+    "verdict": "accept_with_revisions_noted",
+    "independence": "simulated peer (same model family) — prefer external /interrogate before fleet law"
+  },
+  "timezone": "America/New_York",
+  "household_framing": "Millersville MD / Anne Arundel County youth sports — portable Hold/Apply law for any TeamSnap/SportsEngine household",
+  "standing_rule": "Humans own who drives and who gets notified; the agent proposes Holds, never assigns or notifies on its own.",
+  "state_machine": {
+    "states": [
+      "DETECT_GAP",
+      "PROPOSE_HOLD",
+      "APPLY",
+      "BIND_DIGEST",
+      "NOTIFY_ALLOWED",
+      "REJECT",
+      "EXPIRE"
+    ],
+    "rule": "Hold → human Apply (digest-bound) → notify-only; REJECT/EXPIRE → NO_NOTIFY, NO_ASSIGN",
+    "platform_write_default": false,
+    "hold_timeout": "EXPIRE → NEEDS HUMAN board badge; never auto-assign / never auto-notify"
+  },
+  "named_person_freeze": {
+    "rule": "May propose coverage candidates; never auto-assign any of these without Apply",
+    "never_auto_assign": [
+      "Chris",
+      "Beth",
+      "Melody",
+      "team parents / coaches / managers from TeamSnap roster",
+      "grandparents / extended family"
+    ],
+    "ask_before_coverage": [
+      "Boyd",
+      "Miranda"
+    ]
+  },
+  "handoff": {
+    "Pam": "School-side conflicts that block a ride window (early dismissal, hair, church, school event)",
+    "Boyd": "Sports logistics / TeamSnap / GameChanger / SportsEngine schedule legs",
+    "Both": "Cross-domain same evening — board shows both chips; Apply by either visible to both"
+  },
+  "notify_policy": {
+    "auto_notify": 0,
+    "local_board_always_ok": true,
+    "channels_after_apply_only": [
+      "slack_dm_applying_parent",
+      "household_slack_channel"
+    ],
+    "denied_by_default": [
+      "gmail.send",
+      "TeamSnap team message",
+      "SMS / iMessage to grandparents",
+      "coach blast"
+    ],
+    "grandparent_auto_text": 0
+  },
+  "assign_policy": {
+    "auto_assign_coverage": 0,
+    "permission_attested_required": true,
+    "forbidden": [
+      "Assign Chris/Beth/Melody/team parent without Apply",
+      "Assign on Hold timeout",
+      "Assign from prompt-injected coach text",
+      "Overbook seats",
+      "Put home addresses / gate codes in public assignment titles",
+      "Manager-assign that emails surprise parties outside digest"
+    ]
+  },
+  "freshness": {
+    "classes": ["FEED_LIVE", "FEED_LAGGED", "FEED_STALE", "SYNTHETIC"],
+    "rule": "Confess 12–24h SportsEngine/TeamSnap poll lag; subscribe ≠ import; never upgrade FEED_LAGGED to certain kickoff without human"
+  },
+  "honesty": {
+    "LIVE": "Real event_id or inbox message_id + fetch time America/New_York",
+    "SYNTHETIC": "Demo fixtures / burn screenshots — amber [DEMO] stamp; never sold as weekend plan",
+    "UNAVAILABLE": "Fetch 403/timeout — grey; not yesterday's rides"
+  },
+  "denied_tools": [
+    "coverage-auto-assign",
+    "carpool-auto-notify",
+    "grandparent-auto-text",
+    "TeamSnap Assignments Who= write without Apply digest",
+    "manager-assign that emails assignees without household Apply",
+    "gmail.send from carpool desk (use brief-017 send-on-behalf path)",
+    "SMS / iMessage to grandparents without explicit Apply targets",
+    "Hold-timeout best-effort assign",
+    "flip auto_assign_coverage=1 or auto_notify=1",
+    "KPD / work-domain coverage board bleed",
+    "burn outbound carpool notify",
+    "auto-pay / auto-RSVP (brief-014 law)"
+  ],
+  "refused_post_prefixes": [
+    "/api/coverage-auto-assign",
+    "/api/carpool-auto-notify",
+    "/api/grandparent-auto-text"
+  ],
+  "scorecard": {
+    "auto_assign_coverage": 0,
+    "auto_notify": 0,
+    "digest_drift_blocked": 100,
+    "hold_timeout_auto_action": 0,
+    "synthetic_sold_as_live": 0,
+    "stale_feed_as_certain": 0,
+    "grandparent_auto_text": 0,
+    "permission_attested_on_apply": 100,
+    "timezone_et_stamps": 100,
+    "kpd_bleed": 0,
+    "burn_outbound": 0,
+    "seat_overbook": 0,
+    "timezone": "America/New_York"
+  },
+  "laws": [
+    {"id": "hold-apply-notify", "text": "Every coverage ask is a Hold with proposed candidates; Apply is human; notify-only after Apply binds the exact digest."},
+    {"id": "never-auto-assign", "text": "auto_assign_coverage=0 — never auto-assign Chris/Beth/Melody/team parents; proposing ≠ assigning."},
+    {"id": "never-auto-notify", "text": "auto_notify=0 — drafts may exist; outbound (TeamSnap/SMS/Slack/email) blocked until Apply."},
+    {"id": "no-grandparent-auto-text", "text": "grandparent_auto_text=0 — grandparents/extended family require explicit Apply notify_targets."},
+    {"id": "pam-boyd-handoff", "text": "Pam owns school / Boyd owns sports; cross-domain cards show both chips; ask Boyd/Miranda before coverage."},
+    {"id": "live-vs-synthetic", "text": "Every card LIVE or SYNTHETIC; demo boards cannot notify or write TeamSnap."},
+    {"id": "feed-lag-honesty", "text": "Confess 12–24h feed lag; subscribe ≠ import; freeBusy proposes conflicts only."},
+    {"id": "permission-attested", "text": "Apply requires guardian permission attested checkbox for passengers with this driver."},
+    {"id": "america-new-york", "text": "America/New_York stamps end-to-end; never UTC wall-clock for household rides."},
+    {"id": "no-kpd-no-burn-outbound", "text": "No KPD; no burn outbound; no cloud agents from this burn."}
+  ],
+  "separation": "brief-013 = Sports Week Desk injury/odds + kids conflict flags; brief-014 = School Email Digest Pack/Sign/Pay; brief-017 = send-on-behalf Hold/Apply; brief-018 = CAS on shared artifacts; brief-023 = carpool coverage Apply/notify specialization (assignment + notify irreversible class)"
+}

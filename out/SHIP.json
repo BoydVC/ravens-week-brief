@@ -1,0 +1,52 @@
+{
+  "app": "ravens-week-brief",
+  "jim_lane": 3,
+  "status": "shipped",
+  "mode": "LIVE+SYNTHETIC",
+  "url": "http://127.0.0.1:4338/",
+  "bind": "127.0.0.1:4338",
+  "smoke": "44/44",
+  "smoke_pass": true,
+  "fetched_at_et": "2026-10-26 21:53:52 EDT",
+  "shipped_at_et": "2026-10-26 21:58:10 EDT",
+  "timezone": "America/New_York",
+  "counts": {
+    "live": 32,
+    "synthetic": 10,
+    "total_labeled": 42
+  },
+  "matchup": {
+    "week": 8,
+    "game": "BAL @ BUF",
+    "kickoff_et": "Sunday, Nov 1, 2026 · 1:00 PM ET",
+    "venue": "Highmark Stadium, Orchard Park, NY",
+    "records": "BAL 4-3 @ BUF 5-1",
+    "spread": "BUF -3.5",
+    "total": 53.5,
+    "lamar": "QUESTIONABLE (ankle) LIVE official report"
+  },
+  "paths": {
+    "root": "/workspace/tokenmax/ravens-week-brief",
+    "readme": "/workspace/tokenmax/ravens-week-brief/README.md",
+    "design": "/workspace/tokenmax/ravens-week-brief/DESIGN.md",
+    "research": "/workspace/tokenmax/ravens-week-brief/RESEARCH.md",
+    "week_card": "/workspace/tokenmax/ravens-week-brief/data/week_card.json",
+    "injuries": "/workspace/tokenmax/ravens-week-brief/data/injuries.json",
+    "lines": "/workspace/tokenmax/ravens-week-brief/data/lines.json",
+    "simmons_house": "/workspace/tokenmax/ravens-week-brief/data/simmons_house.json",
+    "sunday107": "/workspace/tokenmax/ravens-week-brief/data/sunday107.json",
+    "ship": "/workspace/tokenmax/ravens-week-brief/out/SHIP.json"
+  },
+  "features": [
+    "Week card with weather stub + Bengals/Ravens collapse prior-week note",
+    "Injury/practice board with LIVE/SYNTHETIC labels",
+    "Betting/line LIVE DraftKings-via-ESPN stamp",
+    "Simmons/House section seeded from Jim Week 1 research; Week 8 SYNTHETIC await",
+    "Sunday mode 107 fifth-pick checklist (localStorage, no auto-post)"
+  ],
+  "design": "charcoal #121417 + gold #d4a017 + white; one raven purple #4a2c7a accent",
+  "notes": [
+    "No Boyd messages / cloud agents / KPD / payments / outbound-as-Boyd",
+    "Jim lane #3 ship for dual-pool burn"
+  ]
+}

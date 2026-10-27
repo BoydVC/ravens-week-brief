@@ -1,0 +1,382 @@
+Ravens Week-Of Brief serving http://127.0.0.1:4338/
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/counts HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /app.js HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/injuries HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/lines HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/simmons HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/sunday107 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/counts HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /app.js HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/injuries HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/lines HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/simmons HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/sunday107 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/counts HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+Ravens Week-Of Brief serving http://127.0.0.1:4338/
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/counts HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /app.js HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/injuries HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/lines HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/simmons HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/sunday107 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/household HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/household HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+Ravens Week-Of Brief serving http://127.0.0.1:4338/
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/counts HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /app.js HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/injuries HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/lines HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/simmons HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/sunday107 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/household HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief023 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "POST /api/coverage-auto-assign HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/carpool-auto-notify HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/grandparent-auto-text HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/coverage-auto-assign HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+Ravens Week-Of Brief serving http://127.0.0.1:4338/
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/counts HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /app.js HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/injuries HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/lines HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/simmons HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/sunday107 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/household HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief023 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "POST /api/coverage-auto-assign HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/carpool-auto-notify HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/grandparent-auto-text HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/coverage-auto-assign HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief054 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/fabricate-odds HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/fabricate-odds HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/fabricate-score HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/fabricate-score HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-lock-picks HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-lock-picks HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-settle-pool HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-settle-pool HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-charge-stakes HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-charge-stakes HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-text-kids HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-text-kids HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/kids-real-money HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/kids-real-money HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/burn-outbound HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/burn-outbound HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+Ravens Week-Of Brief serving http://127.0.0.1:4338/
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief078 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-buy-tickets HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/counts HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /app.js HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/injuries HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/lines HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/simmons HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/sunday107 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/household HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief023 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "POST /api/coverage-auto-assign HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/carpool-auto-notify HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/grandparent-auto-text HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/coverage-auto-assign HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief054 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/fabricate-odds HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/fabricate-odds HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/fabricate-score HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/fabricate-score HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-lock-picks HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-lock-picks HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-settle-pool HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-settle-pool HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-charge-stakes HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-charge-stakes HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-text-kids HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-text-kids HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/kids-real-money HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/kids-real-money HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/burn-outbound HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/burn-outbound HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-bet HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief078 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-buy-tickets HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-buy-tickets HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/fabricate-ticket-price HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/fabricate-ticket-price HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-charge-card HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-charge-card HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-buy-ticket HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-buy-ticket HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/fabricate-inventory HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/fabricate-inventory HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/fake-live-tickets HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/fake-live-tickets HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/hold-timeout-buy HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/hold-timeout-buy HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-text-kids HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-text-kids HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-checkout HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/auto-checkout HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/burn-outbound HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/burn-outbound HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/tickets/auto-buy HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/tickets/auto-buy HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/tickets/auto-checkout HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "POST /api/tickets/auto-checkout HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-buy-tickets HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/auto-text-kids HTTP/1.1" 403 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief023 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/brief054 HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 code 404, message File not found
+[ravens-week-brief] 127.0.0.1 "GET /health HTTP/1.1" 404 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET / HTTP/1.1" 200 -
+[ravens-week-brief] 127.0.0.1 "GET /api/health HTTP/1.1" 200 -

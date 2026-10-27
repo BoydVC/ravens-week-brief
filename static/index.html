@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ravens Week-Of Brief</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <div class="mark" aria-hidden="true">RW</div>
+      <div>
+        <h1>Ravens Week-Of Brief</h1>
+        <p class="tag">Saturday / Sunday household sports card · injury board · Simmons/House desk · 107 habit</p>
+      </div>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="toolbar">
+    <label class="toggle" title="Sunday 107 fifth-pick checklist mode">
+      <input type="checkbox" id="sundayMode" />
+      <span>Sunday mode · 107 fifth-pick</span>
+    </label>
+    <div class="stamp" id="stamp"></div>
+  </div>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="week">Week card</button>
+    <button class="tab" data-tab="injuries">Injury / practice</button>
+    <button class="tab" data-tab="lines">Betting / line</button>
+    <button class="tab" data-tab="simmons">Simmons / House</button>
+    <button class="tab" data-tab="sunday" id="tabSunday">Sunday 107</button>
+    <button class="tab" data-tab="household">Household week</button>
+    <button class="tab" data-tab="brief023">Brief-023 law · carpool Apply</button>
+    <button class="tab" data-tab="brief054">Brief-054 law · Family fantasy pick'em</button>
+    <button class="tab" data-tab="brief078">Brief-078 law · Family sports ticket Hold</button>
+  </nav>
+
+  <main>
+    <section id="panel-week" class="panel active"></section>
+    <section id="panel-injuries" class="panel"></section>
+    <section id="panel-lines" class="panel"></section>
+    <section id="panel-simmons" class="panel"></section>
+    <section id="panel-sunday" class="panel"></section>
+    <section id="panel-household" class="panel"></section>
+    <section id="panel-brief023" class="panel"></section>
+    <section id="panel-brief054" class="panel"></section>
+    <section id="panel-brief078" class="panel"></section>
+  </main>
+
+  <footer>
+    <span>http://127.0.0.1:4338</span>
+    <span>· charcoal / gold / white · one team-purple accent max</span>
+    <span>· LIVE vs SYNTHETIC stamped · no auto-post · never auto-bet · auto_assign_coverage=0 · auto_notify=0 · not betting advice · 21+ · 1-800-GAMBLER</span>
+  </footer>
+  <script src="/app.js"></script>
+</body>
+</html>

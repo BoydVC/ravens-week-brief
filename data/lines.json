@@ -1,0 +1,45 @@
+{
+  "label": "LIVE",
+  "fetched_at_et": "2026-10-26 21:53:41 EDT",
+  "game": "BAL @ BUF · Week 8 · 2026-11-01",
+  "provider": "DraftKings (via ESPN scoreboard API)",
+  "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261101",
+  "espn_event_id": "401873026",
+  "spread": {
+    "favorite": "BUF",
+    "line": -3.5,
+    "display": "BUF -3.5",
+    "home_odds": -102,
+    "away_line": 3.5,
+    "away_odds": -118,
+    "opened": "BUF -2.5"
+  },
+  "total": {
+    "line": 53.5,
+    "display": "O/U 53.5",
+    "over_odds": -112,
+    "under_odds": -108,
+    "opened": 51.5
+  },
+  "moneyline": {
+    "home_buf": -192,
+    "away_bal": 160,
+    "opened_home": -135,
+    "opened_away": 114
+  },
+  "secondary_sources": [
+    {
+      "name": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/buffalo-bills-open-slight-favorites-193413708.html",
+      "note": "BUF -3.5 / O/U 53.5 — agrees with ESPN/DK close",
+      "label": "LIVE"
+    },
+    {
+      "name": "CBS Sports betting desk",
+      "url": "https://www.cbssports.com/betting/news/nfl-odds-picks-ravens-vs-bills-chiefs-vs-broncos-among-best-spread-bets-for-week-8/",
+      "note": "Lists Bills -3.5 among Week 8 ATS leans; SportsLine sim cover rate cited 58%",
+      "label": "LIVE"
+    }
+  ],
+  "disclaimer": "Lines move. Household entertainment context only — not betting advice."
+}

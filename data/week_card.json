@@ -1,0 +1,81 @@
+{
+  "label": "LIVE",
+  "fetched_at_et": "2026-10-26 21:53:52 EDT",
+  "sources": [
+    {
+      "name": "ESPN NFL scoreboard",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261101",
+      "fetched_at_et": "2026-10-26 21:53:41 EDT"
+    },
+    {
+      "name": "NFL.com game center",
+      "url": "https://www.nfl.com/games/ravens-at-bills-2026-reg-8",
+      "fetched_at_et": "2026-10-26 21:53:00 EDT"
+    },
+    {
+      "name": "Bengals.com Week 7 recap",
+      "url": "https://www.bengals.com/news/bengals-ravens-recap-postgame-notes-quotes-stats-week-7-2026",
+      "fetched_at_et": "2026-10-26 21:53:00 EDT"
+    },
+    {
+      "name": "Open-Meteo forecast (Orchard Park)",
+      "url": "https://api.open-meteo.com/v1/forecast?latitude=42.7738&longitude=-78.7870&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode&temperature_unit=fahrenheit&timezone=America%2FNew_York&start_date=2026-11-01&end_date=2026-11-01",
+      "fetched_at_et": "2026-10-26 21:53:41 EDT"
+    }
+  ],
+  "matchup": {
+    "week": 8,
+    "away": {
+      "team": "Baltimore Ravens",
+      "abbr": "BAL",
+      "record": "4-3",
+      "record_source": "ESPN scoreboard 2026-10-26"
+    },
+    "home": {
+      "team": "Buffalo Bills",
+      "abbr": "BUF",
+      "record": "5-1",
+      "record_source": "ESPN scoreboard 2026-10-26"
+    },
+    "kickoff_et": "Sunday, Nov 1, 2026 · 1:00 PM ET",
+    "kickoff_iso_et": "2026-11-01T13:00:00-04:00",
+    "venue": "Highmark Stadium",
+    "city": "Orchard Park, NY",
+    "tv": "CBS (window per NFL/ESPN; confirm local affiliate Sunday morning)",
+    "espn_event_id": "401873026"
+  },
+  "prior_week": {
+    "label": "LIVE",
+    "headline": "Bengals 35, Ravens 13 — 35 unanswered after BAL led 13-0 at half",
+    "detail": "Week 7 at M&T: Huntley start; Burrow 4 TD passes; Ravens blanked in second half. AFC North basement heading into Buffalo.",
+    "source": "https://www.bengals.com/news/bengals-ravens-recap-postgame-notes-quotes-stats-week-7-2026",
+    "note": "Jim lane signal framed as Bengals rally / Ravens collapse — not a Bengals collapse."
+  },
+  "weather": {
+    "label": "LIVE",
+    "location": "Orchard Park, NY (Highmark)",
+    "date": "2026-11-01",
+    "high_f": 61.7,
+    "low_f": 47.7,
+    "precip_prob_max_pct": 23,
+    "weathercode": 51,
+    "summary": "Mild for Nov 1 · light drizzle risk · high ~62°F / low ~48°F · precip max 23%",
+    "source": "Open-Meteo public forecast API",
+    "fetched_at_et": "2026-10-26 21:53:41 EDT",
+    "stub_note": "Public forecast stub; re-check Saturday morning for wind/snow updates."
+  },
+  "headline_angles": [
+    {
+      "label": "LIVE",
+      "text": "Lamar Jackson listed QUESTIONABLE (ankle) on official Ravens injury report after LP/LP/LP week — Minter publicly optimistic about return vs Bills (ESPN)."
+    },
+    {
+      "label": "LIVE",
+      "text": "Bills off bye at 5-1, open as 3.5-point home favorites; total 53.5 (DraftKings via ESPN)."
+    },
+    {
+      "label": "LIVE",
+      "text": "Ravens 4-3 after two straight losses; last in compressed AFC North entering Week 8 travel."
+    }
+  ]
+}

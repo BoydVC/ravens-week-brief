@@ -1,0 +1,65 @@
+{
+  "fetched_at_et": "2026-10-26 21:53:52 EDT",
+  "section_note": "Week 8 2026 Bill Simmons / Joe House Ringer 107 episode was not yet on the public Ringer feed with parseable BAL@BUF locks at fetch time. Seed format from Jim's local Week 1 research; Week 8 angles are SYNTHETIC household prompts until the episode lands.",
+  "format": {
+    "label": "LIVE",
+    "source": "/workspace/jim/bill-simmons-house-week1-bets.md",
+    "episode_example": "Week 1 2026 — The Bill Simmons Podcast with Joe House",
+    "ringer_107": "Contest format: each takes own picks (Thu slate + Sunday social fifth). Piggyback allowed when they like the other's side. Segment often labeled Ringer 107.",
+    "household_habit": "Boyd Sunday 107 fifth-pick habit — pick one Sunday social side after Saturday card review. Checklist only; never auto-post."
+  },
+  "week1_seed_agreements": {
+    "label": "LIVE",
+    "source": "/workspace/jim/bill-simmons-house-week1-bets.md",
+    "items": [
+      "Texans catching points vs Bills (House lock; Bill with him)",
+      "Jaguars -2.5 vs Browns (both in teasers)",
+      "Cowboys -2.5 vs Giants SNF (Bill lock; House piggyback)",
+      "Jets at Titans (House contest; Bill heavy Jets exposure)"
+    ]
+  },
+  "week8_cards": [
+    {
+      "id": "await-episode",
+      "label": "SYNTHETIC",
+      "who": "Desk",
+      "title": "Awaiting Week 8 Simmons/House locks",
+      "body": "No LIVE BAL@BUF pick from the Week 8 episode at fetch. Re-check The Ringer / Megaphone after Friday-Saturday drop. Do not invent Bill or House sides.",
+      "side": null
+    },
+    {
+      "id": "angle-lamar-binary",
+      "label": "SYNTHETIC",
+      "who": "Household angle",
+      "title": "Lamar binary vs number",
+      "body": "If Jackson is upgraded to probable/active, BAL +3.5 becomes a different game than Huntley +3.5. Hold the fifth pick until Friday practice + Sunday inactive list — classic House 'wait for the report' move.",
+      "side": "PROCESS"
+    },
+    {
+      "id": "angle-bills-bye",
+      "label": "SYNTHETIC",
+      "who": "Household angle",
+      "title": "Bills off bye, Ravens off a collapse",
+      "body": "Public desk noise favors BUF -3.5 (bye rest, 5-1, scoring #1). Counter: Baltimore run game + short week-of travel fog if Lamar plays. Treat as Simmons-style 'which story are you buying' — not a LIVE lock.",
+      "side": "LEAN BUF -3.5 (synthetic)"
+    },
+    {
+      "id": "angle-total",
+      "label": "SYNTHETIC",
+      "who": "Household angle",
+      "title": "Total 53.5 after 35-point Bengals half",
+      "body": "Ravens just allowed 35 unanswered; Bills lead NFL in points. Over is the square-ish narrative. Under needs Lamar limited + Buffalo grind — mark SYNTHETIC until weather/wind update Saturday.",
+      "side": "LEAN OVER 53.5 (synthetic)"
+    }
+  ],
+  "sunday_107": {
+    "label": "LIVE",
+    "habit": "Sunday social fifth pick",
+    "rules": [
+      "Review Saturday card (injuries + line + weather)",
+      "Confirm Lamar game status from official inactive list",
+      "Write one sentence why — no pile-on parlays",
+      "Check the box locally — do not auto-post to Slack/X"
+    ]
+  }
+}

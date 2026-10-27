@@ -1,0 +1,17 @@
+{
+  "title": "Sunday 107 · fifth-pick habit",
+  "mode_default": false,
+  "checklist": [
+    {"id": "sat-card", "text": "Read Saturday week card (matchup, weather, prior-week collapse note)"},
+    {"id": "injuries", "text": "Re-check Lamar + Hawkins/Tampa/Washington statuses (official report only)"},
+    {"id": "line", "text": "Note current spread/total vs Saturday stamp — flag if moved ≥1 point"},
+    {"id": "simmons", "text": "If Week 8 Simmons/House episode dropped, log their sides; else leave SYNTHETIC"},
+    {"id": "fifth", "text": "Commit ONE Sunday fifth pick with a one-sentence why"},
+    {"id": "no-post", "text": "Do not auto-post — household card only (checkbox stays local)"}
+  ],
+  "pick_slot": {
+    "game": "BAL @ BUF",
+    "placeholder_side": "e.g. BAL +3.5 / BUF -3.5 / Over 53.5",
+    "placeholder_why": "One sentence — Lamar active + number still short, etc."
+  }
+}

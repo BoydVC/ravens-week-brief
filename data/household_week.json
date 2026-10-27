@@ -1,0 +1,23 @@
+{
+  "brief_id": "brief-013",
+  "source": "/workspace/tokenmax/agent-brief-forge/out/brief-013.md + peer-review-013.json",
+  "label": "SYNTHETIC",
+  "label_note": "Kids calendar rows are SYNTHETIC fixtures (no TeamSnap/SportsEngine/Google feed wired). Pro kickoff row mirrors LIVE week_card.",
+  "timezone": "America/New_York",
+  "tz_note": "DST ends Sun Nov 1 2026 2:00 AM — Sunday times are EST (-05:00). Never stamp UTC to the household.",
+  "drive_buffer_min": 30,
+  "laws": [
+    {"id": "never-auto-bet", "text": "Never place, size, or confirm a wager. No bet tools wired. Hold timeout never approves.", "label": "LIVE"},
+    {"id": "odds-honesty", "text": "Lines are informational only with as_of stamp. Older than 60 min => STALE, never shown as LIVE. Not betting advice. 21+ only in MD; 1-800-GAMBLER.", "label": "LIVE"},
+    {"id": "injury-honesty", "text": "Official vocab only: practice DNP/LP/FP; game OUT/DOUBTFUL/QUESTIONABLE. No 'Probable', no 'expected to play' upgrades without a cited source.", "label": "LIVE"},
+    {"id": "live-vs-synthetic", "text": "Every card carries LIVE or SYNTHETIC. Fixtures never laundered as your slate.", "label": "LIVE"},
+    {"id": "no-outbound", "text": "Conflict flags are local. Carpool/parent notices are drafts behind human Apply; nothing sends.", "label": "LIVE"}
+  ],
+  "events": [
+    {"id": "rav-buf", "who": "Ravens", "title": "BAL @ BUF (watch)", "start": "2026-11-01T13:00:00-05:00", "end": "2026-11-01T16:15:00-05:00", "label": "LIVE", "kind": "pro"},
+    {"id": "kid-soccer", "who": "Kid A", "title": "U10 soccer game (away field)", "start": "2026-11-01T12:30:00-05:00", "end": "2026-11-01T13:45:00-05:00", "label": "SYNTHETIC", "kind": "kids"},
+    {"id": "kid-hoops", "who": "Kid B", "title": "Rec hoops practice", "start": "2026-11-01T14:00:00-05:00", "end": "2026-11-01T15:00:00-05:00", "label": "SYNTHETIC", "kind": "kids"},
+    {"id": "kid-soccer-dup", "who": "Kid A", "title": "U10 soccer game (away field)", "start": "2026-11-01T12:30:00-05:00", "end": "2026-11-01T13:45:00-05:00", "label": "SYNTHETIC", "kind": "kids", "feed": "second subscription"},
+    {"id": "fam-dinner", "who": "Family", "title": "Grandparents dinner", "start": "2026-11-01T17:30:00-05:00", "end": "2026-11-01T19:30:00-05:00", "label": "SYNTHETIC", "kind": "family"}
+  ]
+}

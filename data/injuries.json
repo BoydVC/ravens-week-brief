@@ -1,0 +1,61 @@
+{
+  "fetched_at_et": "2026-10-26 21:53:00 EDT",
+  "disclaimer": "Game statuses marked LIVE only when pulled from official team injury report or named public report with stamp. Older practice scraps stay SYNTHETIC or PRIOR.",
+  "ravens": {
+    "label": "LIVE",
+    "source": "https://www.baltimoreravens.com/team/injury-report/",
+    "source_name": "Baltimore Ravens official injury report",
+    "fetched_at_et": "2026-10-26 21:53:00 EDT",
+    "note": "Official table fetched via WebFetch. Opponent column on site still showed Bengals (Week 7 pairing) — player statuses used as published; Week 8 opponent is Buffalo.",
+    "players": [
+      {"name": "Lamar Jackson", "pos": "QB", "injury": "Ankle", "wed": "LP", "thu": "LP", "fri": "LP", "game_status": "QUESTIONABLE", "label": "LIVE"},
+      {"name": "Jaylinn Hawkins", "pos": "S", "injury": "Knee", "wed": "LP", "thu": "DNP", "fri": "DNP", "game_status": "OUT", "label": "LIVE"},
+      {"name": "Tavius Robinson", "pos": "OLB", "injury": "Pectoral", "wed": "DNP", "thu": "DNP", "fri": "DNP", "game_status": "OUT", "label": "LIVE"},
+      {"name": "T.J. Tampa", "pos": "CB", "injury": "Knee", "wed": "LP", "thu": "LP", "fri": "LP", "game_status": "DOUBTFUL", "label": "LIVE"},
+      {"name": "Broderick Washington", "pos": "DL", "injury": "Ankle", "wed": "LP", "thu": "LP", "fri": "LP", "game_status": "QUESTIONABLE", "label": "LIVE"},
+      {"name": "Mark Andrews", "pos": "TE", "injury": "Hand", "wed": "FP", "thu": "FP", "fri": "FP", "game_status": "-", "label": "LIVE"},
+      {"name": "Rashod Bateman", "pos": "WR", "injury": "Shoulder", "wed": "LP", "thu": "FP", "fri": "FP", "game_status": "-", "label": "LIVE"},
+      {"name": "Calais Campbell", "pos": "DL", "injury": "NIR-Rest", "wed": "DNP", "thu": "FP", "fri": "DNP", "game_status": "-", "label": "LIVE"},
+      {"name": "Trey Hendrickson", "pos": "OLB", "injury": "Finger", "wed": "FP", "thu": "FP", "fri": "FP", "game_status": "-", "label": "LIVE"},
+      {"name": "Cam Jurgens", "pos": "C", "injury": "Concussion", "wed": "FP", "thu": "FP", "fri": "FP", "game_status": "-", "label": "LIVE"},
+      {"name": "Ronnie Stanley", "pos": "T", "injury": "NIR-Rest/Toe/Ankle", "wed": "LP", "thu": "FP", "fri": "DNP", "game_status": "-", "label": "LIVE"},
+      {"name": "John Simpson", "pos": "G", "injury": "Groin", "wed": "LP", "thu": "FP", "fri": "FP", "game_status": "-", "label": "LIVE"},
+      {"name": "Olaivavega Ioane", "pos": "G", "injury": "Ankle", "wed": "LP", "thu": "FP", "fri": "FP", "game_status": "-", "label": "LIVE"},
+      {"name": "Andrew Vorhees", "pos": "G", "injury": "Foot", "wed": "LP", "thu": "FP", "fri": "FP", "game_status": "-", "label": "LIVE"},
+      {"name": "Matthew Hibner", "pos": "TE", "injury": "Hand", "wed": "LP", "thu": "FP", "fri": "FP", "game_status": "-", "label": "LIVE"}
+    ]
+  },
+  "bills_watch": {
+    "label": "LIVE",
+    "source": "https://sports.yahoo.com/articles/buffalo-bills-open-slight-favorites-193413708.html",
+    "source_name": "Yahoo Sports Week 8 preview (Byham), Oct 26 2026",
+    "fetched_at_et": "2026-10-26 21:53:00 EDT",
+    "note": "Week 8 practice week has not started (today Mon Oct 26). These are named watch-list items from public preview — not a Friday game-status board.",
+    "players": [
+      {"name": "DJ Moore", "pos": "WR", "injury": "AC joint / shoulder", "game_status": "WATCH", "detail": "Named as Week 8 health question by Yahoo preview", "label": "LIVE"},
+      {"name": "Ed Oliver", "pos": "DT", "injury": "Hip/knee (reports vary)", "game_status": "WATCH", "detail": "Named as Week 8 health question by Yahoo preview", "label": "LIVE"},
+      {"name": "Josh Allen", "pos": "QB", "injury": "-", "game_status": "-", "detail": "No limitation flagged in Oct 26 preview", "label": "LIVE"}
+    ]
+  },
+  "bills_prior_report": {
+    "label": "SYNTHETIC",
+    "source": "https://www.teamrankings.com/nfl/matchup/ravens-bills-week-8-2026/injuries",
+    "note": "TeamRankings scrape mixed older practice stamps (many Oct 16). Do NOT treat as Friday Week 8 statuses. Kept as context only.",
+    "players": [
+      {"name": "DJ Moore", "pos": "WR", "injury": "Shoulder", "game_status": "QUESTIONABLE (prior stamp)", "label": "SYNTHETIC"},
+      {"name": "Ed Oliver", "pos": "DL", "injury": "Knee", "game_status": "QUESTIONABLE (prior stamp)", "label": "SYNTHETIC"},
+      {"name": "Josh Palmer", "pos": "WR", "injury": "Shoulder", "game_status": "QUESTIONABLE (prior stamp)", "label": "SYNTHETIC"},
+      {"name": "Dee Alford", "pos": "CB", "injury": "Ankle", "game_status": "QUESTIONABLE (prior stamp)", "label": "SYNTHETIC"},
+      {"name": "T.J. Sanders", "pos": "DT", "injury": "Shoulder", "game_status": "QUESTIONABLE (prior stamp)", "label": "SYNTHETIC"}
+    ]
+  },
+  "legend": {
+    "DNP": "Did not participate",
+    "LP": "Limited participation",
+    "FP": "Full participation",
+    "OUT": "Will not play",
+    "DOUBTFUL": "Unlikely to play",
+    "QUESTIONABLE": "Not certain to play",
+    "WATCH": "Named public watch item — not official game status"
+  }
+}

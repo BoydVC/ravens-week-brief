@@ -1,0 +1,148 @@
+{
+  "brief_id": "brief-078",
+  "title": "Family Sports Ticket Hold \u2014 Millersville Ravens / Terps / Chelsea Ticket-Idea Board",
+  "source": "/workspace/tokenmax/agent-brief-forge/out/brief-078.md",
+  "folded_at_et": "2026-10-27 EDT",
+  "timezone": "America/New_York",
+  "place": "Millersville, MD",
+  "locale": "Millersville, MD",
+  "schema": "sports-ticket-hold/v1",
+  "constraints": [
+    "Never auto-buy tickets on Ticketmaster/SeatGeek/StubHub",
+    "Never fabricate LIVE ticket prices \u2014 EXAMPLE until marketplace proof",
+    "Never fabricate inventory / seat counts without proof",
+    "Never auto-charge card / auto-checkout cart",
+    "Never Hold-timeout \u2192 buy",
+    "Never auto-text kids about tickets",
+    "Never burn outbound (Slack/SMS/X)",
+    "Never paint fixture pack as cyan LIVE tickets",
+    "Hold before any cart or charge; default review_private / export_idea",
+    "Pick'em Apply (brief-054) \u2260 ticket buy Apply \u2014 merge_apply=false",
+    "Sports Week Apply (brief-013) \u2260 ticket buy Apply",
+    "Oscar spend ack may accompany buy Apply; does not replace it",
+    "America/New_York stamps; Not KPD"
+  ],
+  "scorecard": {
+    "auto_buy_tickets": 0,
+    "fabricate_ticket_price": 0,
+    "auto_charge_card": 0,
+    "auto_buy_ticket": 0,
+    "fabricate_inventory": 0,
+    "fake_live_tickets": 0,
+    "hold_timeout_buy": 0,
+    "burn_outbound": 0,
+    "auto_text_kids": 0,
+    "auto_checkout": 0
+  },
+  "refused_endpoints": [
+    "/api/auto-buy-tickets",
+    "/api/fabricate-ticket-price",
+    "/api/auto-charge-card",
+    "/api/auto-buy-ticket",
+    "/api/fabricate-inventory",
+    "/api/fake-live-tickets",
+    "/api/hold-timeout-buy",
+    "/api/auto-text-kids",
+    "/api/auto-checkout",
+    "/api/burn-outbound",
+    "/api/tickets/auto-buy",
+    "/api/tickets/auto-checkout"
+  ],
+  "ticket_board": {
+    "honesty": "SYNTHETIC/EXAMPLE \u2014 prices/inventory LIVE only with this-session marketplace proof (listing/export + body sha256/ETag + fetched_at America/New_York)",
+    "ideas": {
+      "ravens": {
+        "label": "Ravens home",
+        "event": "EXAMPLE Ravens home \u2014 M&T Bank Stadium",
+        "status": "EXAMPLE",
+        "price": null,
+        "inventory": null,
+        "proof": null,
+        "marketplace_named": [
+          "ticketmaster",
+          "seatgeek",
+          "stubhub"
+        ]
+      },
+      "terps": {
+        "label": "Terps football",
+        "event": "EXAMPLE Terps \u2014 SECU Stadium",
+        "status": "EXAMPLE",
+        "price": null,
+        "inventory": null,
+        "proof": null,
+        "marketplace_named": [
+          "ticketmaster",
+          "seatgeek"
+        ]
+      },
+      "chelsea": {
+        "label": "Chelsea watch/travel",
+        "event": "EXAMPLE Chelsea \u2014 Stamford Bridge / watch party",
+        "status": "EXAMPLE",
+        "price": null,
+        "inventory": null,
+        "proof": null,
+        "marketplace_named": [
+          "ticketmaster",
+          "chelseafc"
+        ]
+      }
+    },
+    "marketplace": {
+      "named": [
+        "ticketmaster",
+        "seatgeek",
+        "stubhub"
+      ],
+      "cart_status": "NONE"
+    }
+  },
+  "buy_hold": {
+    "state": "HOLD",
+    "destination": null,
+    "default": "review_private",
+    "destinations": [
+      "review_private",
+      "export_idea",
+      "add_to_cart_hold",
+      "buy_tickets",
+      "charge_card",
+      "checkout",
+      "text_kids",
+      "defer",
+      "reject"
+    ],
+    "never_default": [
+      "buy_tickets",
+      "charge_card",
+      "checkout",
+      "text_kids"
+    ],
+    "digest_sha256": null,
+    "expires_at": null,
+    "oscar_spend_ack": false,
+    "note": "buy/charge/checkout/text never default; expired Hold \u2192 defer/reject never buy"
+  },
+  "cousin_brief_054": {
+    "merge_apply": false,
+    "note": "Pick'em Apply \u2260 ticket buy Apply; this brief owns ticket buy / price / inventory Hold"
+  },
+  "pairs": {
+    "brief-013": "Sports Week \u2014 separate Apply",
+    "brief-054": "Pick'em \u2014 cousin; merge_apply=false",
+    "brief-015": "Oscar spend ack companion; does not replace ticket Hold",
+    "brief-017": "burn_outbound=0"
+  },
+  "peer_review": {
+    "verdict": "accept_with_revisions_noted",
+    "source": "/workspace/tokenmax/agent-brief-forge/out/peer-review-078.json"
+  },
+  "citations": {
+    "http_citation_count": 174,
+    "fetched_ok_count": 174,
+    "in_brief_count": 174,
+    "passed": true,
+    "checked_at": "2026-10-27T08:15:00-04:00"
+  }
+}
