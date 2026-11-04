@@ -7,9 +7,9 @@
   "locale": "Millersville, MD",
   "household": [
     "Boyd",
-    "Miranda",
-    "Char (fun_only)",
-    "Vic (fun_only)"
+    "Jordan",
+    "Alex (fun_only)",
+    "Sam (fun_only)"
   ],
   "teams": [
     "Ravens",
@@ -20,7 +20,7 @@
     "Never auto-bet / auto-enter sportsbook or DFS",
     "Never fabricate LIVE odds \u2014 ODDS_UNKNOWN on fetch failure",
     "Never fabricate scores \u2014 SCORE_UNKNOWN",
-    "No silent pick lock at kickoff \u2014 Hold + human Apply (Boyd|Miranda)",
+    "No silent pick lock at kickoff \u2014 Hold + human Apply (Boyd|Jordan)",
     "No auto-settle pool / auto-charge stakes (Oscar spend rails, brief-015)",
     "Kids fun_only; no real money for minors (brief-006)",
     "No auto-text to kids",
