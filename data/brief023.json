@@ -129,7 +129,7 @@
     {"id": "never-auto-assign", "text": "auto_assign_coverage=0 — never auto-assign Chris/Beth/Melody/team parents; proposing ≠ assigning."},
     {"id": "never-auto-notify", "text": "auto_notify=0 — drafts may exist; outbound (TeamSnap/SMS/Slack/email) blocked until Apply."},
     {"id": "no-grandparent-auto-text", "text": "grandparent_auto_text=0 — grandparents/extended family require explicit Apply notify_targets."},
-    {"id": "pam-boyd-handoff", "text": "Pam owns school / Boyd owns sports; cross-domain cards show both chips; ask Boyd/Miranda before coverage."},
+    {"id": "pam-boyd-handoff", "text": "Pam owns school / Boyd owns sports; cross-domain cards show both chips; ask Boyd/Jordan before coverage."},
     {"id": "live-vs-synthetic", "text": "Every card LIVE or SYNTHETIC; demo boards cannot notify or write TeamSnap."},
     {"id": "feed-lag-honesty", "text": "Confess 12–24h feed lag; subscribe ≠ import; freeBusy proposes conflicts only."},
     {"id": "permission-attested", "text": "Apply requires guardian permission attested checkbox for passengers with this driver."},

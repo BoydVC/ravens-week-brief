@@ -297,7 +297,7 @@
           <span class="badge-law">auto_assign_coverage=0</span>
           <span class="badge-law">auto_notify=0</span>
         </div>
-        <div class="banner">${badge("LIVE")} Portable carpool Hold→Apply→notify-only law folded alongside brief-013 household sports. Propose ≠ assign. Ask Boyd/Miranda before coverage. Pam owns school / Boyd owns sports.</div>
+        <div class="banner">${badge("LIVE")} Portable carpool Hold→Apply→notify-only law folded alongside brief-013 household sports. Propose ≠ assign. Ask Boyd/Jordan before coverage. Pam owns school / Boyd owns sports.</div>
         <ul class="law-list">${laws}</ul>
         <div class="card" style="margin-bottom:.8rem">
           <h3>Scorecard zeros</h3>
