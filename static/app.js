@@ -297,7 +297,7 @@
           <span class="badge-law">auto_assign_coverage=0</span>
           <span class="badge-law">auto_notify=0</span>
         </div>
-        <div class="banner">${badge("LIVE")} Portable carpool Hold→Apply→notify-only law folded alongside brief-013 household sports. Propose ≠ assign. Ask Boyd/Jordan before coverage. Pam owns school / Boyd owns sports.</div>
+        <div class="banner">${badge("LIVE")} Portable carpool Hold→Apply→notify-only law folded alongside brief-013 household sports. Propose ≠ assign. Ask Alex/Jordan before coverage. Pam owns school / Alex owns sports.</div>
         <ul class="law-list">${laws}</ul>
         <div class="card" style="margin-bottom:.8rem">
           <h3>Scorecard zeros</h3>
@@ -391,7 +391,7 @@
           <span class="badge-law">auto_bet=0</span>
           <span class="badge-law">fabricate_odds=0</span>
         </div>
-        <div class="banner">${badge("LIVE")} Millersville household board (${esc((b.household||[]).join(", "))}) — Ravens/Terps/Chelsea. Hold before any bet or staked pool; ODDS_UNKNOWN / SCORE_UNKNOWN beats invention. Kids fun_only. Pairs brief-013 Sports Week + Oscar spend rails.</div>
+        <div class="banner">${badge("LIVE")} Lakeside household board (${esc((b.household||[]).join(", "))}) — Ravens/Terps/Chelsea. Hold before any bet or staked pool; ODDS_UNKNOWN / SCORE_UNKNOWN beats invention. Kids fun_only. Pairs brief-013 Sports Week + Oscar spend rails.</div>
         <ul class="law-list">${cons}</ul>
         <div class="card" style="margin-bottom:.8rem"><h3>Scorecard zeros</h3><div class="kpi-grid">${kpis}</div></div>
         <div class="card" style="margin-bottom:.8rem"><h3>Refused (GET+POST → 403)</h3><p class="muted" style="margin:0">${refused}</p></div>
