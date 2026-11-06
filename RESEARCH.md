@@ -124,7 +124,7 @@ https://wp.theringer.com/wp-content/uploads/2026/09/ringer107-leaderboard-embed.
 
 ## 8. Sunday 107 household habit
 
-Boyd habit: one Sunday social fifth pick after Saturday card review. Implemented as checklist UI + localStorage pick slot. **No auto-post** to Slack, X, email, or any outbound channel. Toggle labeled “Sunday mode · 107 fifth-pick”.
+Alex habit: one Sunday social fifth pick after Saturday card review. Implemented as checklist UI + localStorage pick slot. **No auto-post** to Slack, X, email, or any outbound channel. Toggle labeled “Sunday mode · 107 fifth-pick”.
 
 ## 9. Related TokenMax desks (not cloned)
 
@@ -143,7 +143,7 @@ Computed by `/api/counts` from stamped objects in data JSON (week card, injuries
 - Public WebFetch + `curl` only. No paid odds API keys.  
 - Times reported in America/New_York with EDT label from box clock.  
 - ESPN Z timestamps converted mentally to ET for kickoff display (18:00Z → 1:00 PM ET on Nov 1 2026 under EDT).  
-- No Boyd messages, cloud agents, KPD, payments, or outbound-as-Boyd in this burn.
+- No Alex messages, cloud agents, KPD, payments, or outbound-as-Alex in this burn.
 
 ## 12. Refresh checklist (for next Saturday)
 

@@ -1,12 +1,12 @@
 {
   "brief_id": "brief-054",
-  "title": "Family Fantasy Football / Sports Pick'em \u2014 Millersville Household Board + Hold Before Any Bet/Staked Pool",
+  "title": "Family Fantasy Football / Sports Pick'em \u2014 Lakeside Household Board + Hold Before Any Bet/Staked Pool",
   "source": "/workspace/tokenmax/agent-brief-forge/out/brief-054.md",
   "folded_at_et": "2026-10-27 EDT",
   "timezone": "America/New_York",
-  "locale": "Millersville, MD",
+  "locale": "Lakeside, MD",
   "household": [
-    "Boyd",
+    "Alex",
     "Jordan",
     "Alex (fun_only)",
     "Sam (fun_only)"
@@ -20,7 +20,7 @@
     "Never auto-bet / auto-enter sportsbook or DFS",
     "Never fabricate LIVE odds \u2014 ODDS_UNKNOWN on fetch failure",
     "Never fabricate scores \u2014 SCORE_UNKNOWN",
-    "No silent pick lock at kickoff \u2014 Hold + human Apply (Boyd|Jordan)",
+    "No silent pick lock at kickoff \u2014 Hold + human Apply (Alex|Jordan)",
     "No auto-settle pool / auto-charge stakes (Oscar spend rails, brief-015)",
     "Kids fun_only; no real money for minors (brief-006)",
     "No auto-text to kids",

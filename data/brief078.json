@@ -1,11 +1,11 @@
 {
   "brief_id": "brief-078",
-  "title": "Family Sports Ticket Hold \u2014 Millersville Ravens / Terps / Chelsea Ticket-Idea Board",
+  "title": "Family Sports Ticket Hold \u2014 Lakeside Ravens / Terps / Chelsea Ticket-Idea Board",
   "source": "/workspace/tokenmax/agent-brief-forge/out/brief-078.md",
   "folded_at_et": "2026-10-27 EDT",
   "timezone": "America/New_York",
-  "place": "Millersville, MD",
-  "locale": "Millersville, MD",
+  "place": "Lakeside, MD",
+  "locale": "Lakeside, MD",
   "schema": "sports-ticket-hold/v1",
   "constraints": [
     "Never auto-buy tickets on Ticketmaster/SeatGeek/StubHub",

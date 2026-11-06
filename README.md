@@ -1,6 +1,6 @@
 # Ravens Week-Of Brief
 
-Saturday / Sunday household sports card desk for Boyd’s Ravens week.
+Saturday / Sunday household sports card desk for Alex’s Ravens week.
 
 **URL:** http://127.0.0.1:4338/  
 **Path:** `/workspace/tokenmax/ravens-week-brief`  
@@ -49,14 +49,14 @@ Charcoal + gold + white. One Ravens-purple accent max (mark underline / Sunday t
 
 ## Out of scope
 
-No cloud agents, no Boyd messages, no KPD, no payments, no outbound-as-Boyd.
+No cloud agents, no Alex messages, no KPD, no payments, no outbound-as-Alex.
 
 ## Brief folds
 
 | Brief | Role |
 |-------|------|
 | **brief-013** | Sports Week Desk — LIVE vs SYNTHETIC, never auto-bet, odds/injury honesty, kids conflict flags (`/api/household`, `data/household_week.json`) |
-| **brief-023** | Carpool Apply/notify — Hold→Apply→notify-only; `auto_assign_coverage=0` / `auto_notify=0`; never auto-assign Chris/Beth/Melody/team parents; no grandparents auto-text; Pam school / Boyd sports (`GET /api/brief023` + live_check; POST `/api/coverage-auto-assign`, `/api/carpool-auto-notify`, `/api/grandparent-auto-text` → 403) |
+| **brief-023** | Carpool Apply/notify — Hold→Apply→notify-only; `auto_assign_coverage=0` / `auto_notify=0`; never auto-assign Pat/Morgan/Casey/team parents; no grandparents auto-text; Pam school / Alex sports (`GET /api/brief023` + live_check; POST `/api/coverage-auto-assign`, `/api/carpool-auto-notify`, `/api/grandparent-auto-text` → 403) |
 
 See `BRIEF013_FOLD.md` and `BRIEF023_FOLD.md`.
 
